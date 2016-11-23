@@ -56,7 +56,8 @@ pages/new-page.md
 
 !
 
-## Style a paragraph on the page
+## Style a paragraph
+pages/new-page.md
 
 !
 
@@ -65,7 +66,7 @@ css/markdown-styles.css
 
 !
 
-## Look at reac code
+## Look at react code
 pages/minimal-react-example.js
 
 !
