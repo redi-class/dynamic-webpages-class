@@ -27,15 +27,24 @@ sudo yarn global add gatsby
 
 !
 
+## Fork Gatsby example repo
+- goto github.com
+- login with your account (e.g hulk)
+- https://gibhub.com/olifante/gatsby-example-site
+- klick _Fork_ button
+
+!
+
+
 ## Start first Gatsby project
 ```shell
 cd
 mkdir Development
 cd Development
-gatsby new olifante \
-  https://github.com/olifante/olifante
-cd olifante
-yarn build
+git clone \
+  https://gibhub.com/hulk/gatsby-example-site
+cd gatsby-example-site
+yarn
 gatsby develop
 ```
 
