@@ -1,0 +1,3 @@
+#! /bin/bash
+echo "replace MarkdownPresenter/presentation.md with your own markdown"
+webfsd -F -p 8888 -r ~/Documents/MarkdownPresenter/ -f Presenter.html
