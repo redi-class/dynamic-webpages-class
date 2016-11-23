@@ -1,6 +1,6 @@
 # Topics
 1. Install Gatsby
-1. Make code changes ins Gatsby
+1. Make code changes in Gatsby
 
 !
 
@@ -12,7 +12,7 @@
 
 !
 
-# Installall Gatsby
+# Install Gatsby
 
 ```shell
 sudo apt update
@@ -42,7 +42,32 @@ gatsby develop
 !
 
 - wait until gatsby has started
-- open in browser:
-> http://localhost:8000
+- open in browser: http://localhost:8000
+
+!
+
+## Change markdown page
+pages/index.md
+
+!
+
+## Create new markdown page
+pages/new-page.md
+
+!
+
+## Style a paragraph on the page
+
+!
+
+## Play with styles
+css/markdown-styles.css
+
+!
+
+## Look at reac code
+pages/minimal-react-example.js
+
+!
 
 
