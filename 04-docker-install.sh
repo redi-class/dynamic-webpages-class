@@ -24,3 +24,6 @@ sudo apt install docker-compose
 # and replace the actual cmd with new version:
 curl -L https://github.com/docker/compose/releases/download/1.9.0/docker-compose-`uname -s`-`uname -m` > /tmp/docker-compose
 sudo mv /tmp/docker-compose /usr/bin/
+sudo chown root.root /usr/bin/docker-compose
+sudo chmod 755 /usr/bin/docker-compose
+
