@@ -30,7 +30,7 @@ sudo yarn global add gatsby
 ## Fork Gatsby example repo
 - goto github.com
 - login with your account (e.g hulk)
-- https://gibhub.com/olifante/gatsby-example-site
+- https://github.com/olifante/gatsby-starter-redi-school
 - klick _Fork_ button
 
 !
