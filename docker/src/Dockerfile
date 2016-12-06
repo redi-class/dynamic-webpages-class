@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y\
   git \
   nodejs
 RUN npm install -g yarn 
-RUN mkdir -p /var/app/gatsby
-RUN cd /var/app/gatsby && yarn add gatsby eslint
+RUN mkdir -p /var/app/gatsby 
+RUN yarn global add gatsby eslint
+RUN git clone https://github.com/olifante/gatsby-starter-redi-school /var/app/gatsby
 
  
