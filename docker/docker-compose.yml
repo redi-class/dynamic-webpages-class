@@ -6,5 +6,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - "./src:/var/app/gatsby"
+      - "./src:/var/app"
       - "./data:/var/data"
+#    entrypoint: cd /var/app/gatsby-starter-redi-school/ && /usr/bin/gatsby develop
+
